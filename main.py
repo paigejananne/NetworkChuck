@@ -44,4 +44,14 @@ supplies.insert(0,"blankets")
 #add to list second to last
 supplies.insert(-1, "leashes")
 
+#delete from list 
+supplies.remove("tent")
+
+#delete from list and return deleted item
+print("This item was just deleted: " + supplies.pop(0))
+
+#delete entire list
+#empty list
+#supplies.clear()
+
 print(supplies)
